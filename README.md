@@ -19,3 +19,9 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
   Jika menggunakan npm:
   ```bash
   npm install
+  ```
+
+3. **Jalankan Proyek**
+   ```bash
+   npm run dev
+   ```

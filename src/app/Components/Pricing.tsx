@@ -34,7 +34,7 @@ const Pricing = () => {
         }
 
     return (
-        <div className='bg-white py-10 w-full h-full flex flex-col items-center '>
+        <div id='pricing' className='bg-white py-10 w-full h-full flex flex-col items-center '>
             <h1 className='lexend text-[3rem] font-medium  md:text-3xl text-center'>Our Pricing</h1>
             <h1 className='md:hidden flex text-[4rem] lexend'>Subscription</h1>
             <div className='my-5 md:my-5 pt-5 flex flex-row  py-3 px-5 items-center bg-white rounded-3xl gap-5 font-medium shadow-md'>

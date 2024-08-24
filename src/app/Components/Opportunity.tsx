@@ -2,7 +2,7 @@ import React from 'react'
 
 const Opportunity = () => {
   return (
-    <div className="relative py-[10rem] flex flex-col gap-5 px-auto items-center bg-white">
+    <div id='opportunity' className="relative py-[10rem] flex flex-col gap-5 px-auto items-center bg-white">
         <h1 className='text-[4rem] md:text-3xl w-[690px] text-center lexend text-[#3366ff]'>"One Step Closer to More Effective and Connected Communication!"</h1>
         <div className='flex md:flex-row flex-col gap-10'>
             <img src="img5.svg" alt="Image 3"/>

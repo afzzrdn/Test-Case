@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="relative pt-10 flex flex-col-reverse md:flex-row gap-5 md:gap-10 md:pl-[200px]">
+    <div id='hero' className="relative pt-10 flex flex-col-reverse md:flex-row gap-5 md:gap-10 md:pl-[200px]">
         <div className='md:w-[367px] p-16 md:p-0'>
             <h1 className='text-[4rem] md:text-[1.8rem] font-bold pb-5 lexend'>
                 Elevate Your <br /> 

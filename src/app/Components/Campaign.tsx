@@ -2,7 +2,7 @@ import React from 'react'
 
 const Campaign = () => {
   return (
-    <div className="relative py-[10rem] flex md:flex-row flex-col-reverse gap-5 md:pl-[200px] items-center bg-white">
+    <div id='campaign' className="relative py-[10rem] flex md:flex-row flex-col-reverse gap-5 md:pl-[200px] items-center bg-white">
         <div className='w-[50%] md:w-[367px]'>
             <h1 className='text-[4rem] md:text-[1.8rem] font-bold pb-5 lexend mb-10 md:mb-0'>
                 Right Time, Effective Messages

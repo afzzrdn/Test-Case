@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='bg-[#3366ff] py-[8rem] h-full w-full'>
       
-        <div className='flex flex-col items-center'>
+        <div id='faq' className='flex flex-col items-center'>
             <h2 className='text-white lexend text-[3rem] md:text-xl py-20'>Frequently Asked Questions</h2>
             <div className='flex flex-row gap-5'>
                 <div className='w-[700px] h-[80px] md:w-[512px] md:h-[37px] bg-white rounded-md'></div>
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
             
         </div>
-        <div className='flex flex-col md:flex-row md:justify-around py-[200px] h-full w-full'>
+        <div id='contact' className='flex flex-col md:flex-row md:justify-around py-[200px] h-full w-full'>
           <div className='text-white p-[6rem]'>
             <img src="Logo2.svg" alt="" className='w-[300px] md:w-[200px]'/>
             <p className=' text-2xl md:text-xs py-10 w-full md:w-[300px]'>Fowardin is your ultimate communication management solution. We empower businesses of all sizes with efficient message forwarding, streamlined contact management, and powerful campaign scheduling. Our mission is to simplify your communication processes, helping you engage with your audience effectively and effortlessly. Join us in transforming your communication game today!</p>

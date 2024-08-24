@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lexend {
+    font-family: "Lexend Deca", sans-serif;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    scrollbar-width: none;
+}

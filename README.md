@@ -10,7 +10,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
 1. **Clone repositori**
 
    ```bash
-   git clone https://github.com/username/repo-name.git
+   [git clone https://github.com/username/repo-name.git](https://github.com/afzzrdn/Test-Case.git)
 2. **Install Dependensi**
    ```bash
    npm install 

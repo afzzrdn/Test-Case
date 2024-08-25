@@ -48,7 +48,7 @@ const Dashboard = () => {
         </div>
 
         <div className='w-full flex flex-row gap-2 h-[200px] mt-5'>
-          <div className='w-[700px] dark:bg-[#1F1F21] bg-white rounded-md p-5 border border-[#B0B4C5]'>
+          <div className='w-[700px] dark:bg-[#1F1F21] bg-white rounded-md p-5 dark:border dark:border-[#B0B4C5]'>
             <div className='flex flex-row'>
               <p className='text-xs w-[50px]'>Paket saat ini</p>
               <div className='ml-5 flex flex-row items-center gap-2'>

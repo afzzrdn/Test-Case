@@ -2,6 +2,7 @@ import React from 'react'
 import MessageStatisticsChart from './MessageChart'
 import HourlyLineChart from './HourChart'
 import InteractionChart from './InteractionChart'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Analitik = () => {
   return (
@@ -16,7 +17,7 @@ const Analitik = () => {
                             <p className='text-[12px]'>Device</p>
                             <p className='font-bold text-sm'>RMX3263</p>
                         </div>
-                        <img src="chevron-down.svg" alt="" />
+                        <FontAwesomeIcon icon={['fas', 'chevron-down']} className='mt-3'/>
                     </div>
                     <div className='bg-[#F3F5F8] dark:bg-black rounded-md py-2 px-3 flex flex-row w-[35%] justify-between'>
                         <div className='flex flex-col'>
